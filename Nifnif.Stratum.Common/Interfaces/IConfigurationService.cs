@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nifnif.Stratum.Common
+namespace Nifnif.Stratum.Common.Interfaces
 {
     public interface IConfigurationService
     {
