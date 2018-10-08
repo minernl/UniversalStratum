@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Nifnif.Stratum.Common.Models
 {
-    class Coin
+    public class Coin
     {
+        public string Name { get; set; } = "Not set";
+        public string Symbol { get; set; } = "Not set";
     }
 }
