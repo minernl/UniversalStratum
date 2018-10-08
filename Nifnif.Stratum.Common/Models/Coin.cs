@@ -8,5 +8,6 @@ namespace Nifnif.Stratum.Common.Models
     {
         public string Name { get; set; } = "Not set";
         public string Symbol { get; set; } = "Not set";
+        public Uri Rpc { get; set; }
     }
 }

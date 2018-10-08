@@ -1,4 +1,4 @@
-﻿using Nifnif.Stratum.Common;
+﻿using Nifnif.Stratum.Common.Interfaces;
 using System;
 
 namespace Nifnif.Stratum.Services
