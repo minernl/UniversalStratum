@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nifnif.Stratum.App", "Nifnif.Stratum.App\Nifnif.Stratum.App.csproj", "{FB758E1D-BE2F-4934-BB90-493AAAC0C20D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nifnif.Stratum.App", "Nifnif.Stratum.App\Nifnif.Stratum.App.csproj", "{FB758E1D-BE2F-4934-BB90-493AAAC0C20D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nifnif.Stratum.Services", "Nifnif.Stratum.Services\Nifnif.Stratum.Services.csproj", "{0748A7A4-B884-43C2-920C-3A2D5F0C60D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nifnif.Stratum.Services", "Nifnif.Stratum.Services\Nifnif.Stratum.Services.csproj", "{0748A7A4-B884-43C2-920C-3A2D5F0C60D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nifnif.Stratum.Common", "Nifnif.Stratum.Common\Nifnif.Stratum.Common.csproj", "{74103A72-E570-49A6-9E7A-C4411FBE72BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nifnif.Stratum.Common", "Nifnif.Stratum.Common\Nifnif.Stratum.Common.csproj", "{74103A72-E570-49A6-9E7A-C4411FBE72BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nifnif.Stratum.Tests", "Nifnif.Stratum.Tests\Nifnif.Stratum.Tests.csproj", "{E793C2D1-AC0B-4942-A02E-6D13DEEC18A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{74103A72-E570-49A6-9E7A-C4411FBE72BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74103A72-E570-49A6-9E7A-C4411FBE72BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74103A72-E570-49A6-9E7A-C4411FBE72BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E793C2D1-AC0B-4942-A02E-6D13DEEC18A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E793C2D1-AC0B-4942-A02E-6D13DEEC18A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E793C2D1-AC0B-4942-A02E-6D13DEEC18A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E793C2D1-AC0B-4942-A02E-6D13DEEC18A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
